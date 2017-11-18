@@ -9,6 +9,6 @@ import java.io.IOException;
 public class App 
 {
     public static void main( String[] args ) throws IOException {
-        System.out.println("Hello World! Current titanic version is: " + new Titanic().getVersion());
+        System.out.println("Current titanic version is: " + new Titanic().getVersion());
     }
 }
