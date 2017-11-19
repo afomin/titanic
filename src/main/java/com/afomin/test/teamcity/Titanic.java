@@ -17,6 +17,6 @@ public class Titanic {
             properties.load(propertiesStream);
             return properties.getProperty("version");
         }
-        return "default";
+        return "0.0.0";
     }
 }
